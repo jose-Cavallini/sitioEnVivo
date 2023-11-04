@@ -18,7 +18,7 @@ body{
 
 /* defualt styles  */
 h1{
-    font-size: 40px;
+    font-size: 2.5em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 input{
@@ -130,8 +130,8 @@ span{
 /* HTML */
 .contenedor{
     background-color: white;
-    max-width: 700px;
-    width: 75vw;
+    width: 80vw;
+    max-width: 600px;
     min-height: 500px;
     padding: 40px;
     border: 5px solid black;
@@ -140,6 +140,7 @@ span{
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 #ingresar-tarea{
@@ -148,7 +149,8 @@ span{
     color: #3c3b3e;
     border: 1px solid darkgray;
     border-radius: 10px;
-    width: 300px;
+    width: 35vw;
+    max-width: 300px;
     margin: 10px ;
 } 
 
@@ -158,6 +160,7 @@ span{
     font-size: 20px;
     align-items: center;
     min-height: 100px;
+    max-width: 50vw;
 }
 .footer-autor span{
     font-size: 30px;

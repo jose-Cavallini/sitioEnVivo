@@ -93,6 +93,3 @@ function completarTarea(spanTexto){
 function eliminarTarea (liElemento){
     liElemento.remove();
 }
-function limpiarLista(){
-    listaTareas.innerHTML="";
-}
